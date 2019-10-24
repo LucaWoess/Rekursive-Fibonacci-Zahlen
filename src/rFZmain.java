@@ -13,9 +13,7 @@ public class rFZmain
 
     public static int fibonacci(int g)
     {
-        if(g == 0)
-            return 0;
-        if(g == 1)
+        if(g <= 1)
             return 1;
         else
         {
